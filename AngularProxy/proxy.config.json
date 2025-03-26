@@ -1,0 +1,9 @@
+{
+  "/api": {
+    "target": "https://httpbin.org",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
